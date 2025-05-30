@@ -158,7 +158,7 @@ function Details() {
                 </DialogContent>
               </Dialog>
 
-              {invoice.status === "pending" && (
+              {invoice.status === "pending" || "Pending" && (
                 <Button
                   className="ml-[12px]"
                   disabled={updateLoading}
